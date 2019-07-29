@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/Homestyle.css" type="text/css">
-    <Script type="text/javascript" src="Static.js" rel="script"></Script>
+  
     <title>TestScript</title>
 </head>
 <body>
 <!--     <input type="text" id="get_url" value="">-->
      <button class="button_js" onclick="">send</button>
         <p id="now_Time"></p>
-<!--     <iframe src="" frameborder="0" scrolling = no id="set_iframe"></iframe>-->
-      <button onclick="krues()">推荐票</button>
+<!--     <iframe src="" frameborder="0" scrolling = no id="set_iframe"></iframe>-->  
+    <Script type="text/javascript" src="Static.js" rel="script"></Script>
+      <button onclick="
+  var ster = 0;
+  function krues() {
+    ster++;
+    alert(ster)
+    document.getElementById("demo").innerHTML = ster;
+}">推荐票</button>
       <p id="demo"></p>
 </body>
 </html>
