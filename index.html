@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href = "thiers.css">
+    <title>作者后台</title>
+</head>
+<body>
+    <div class="_writer_all_sirs">
+        <div class="in_raod"><!--同级框架 input框架-->
+            <div class="in_raod_title">
+                <input id="writer_title" type="text" value="" placeholder="请输入章节名称:">
+            </div>
+        </div>
+
+        <div class="text_promine"><!--同级框架  文本域 -->
+            <textarea name="writer_booktext" id="writer_booktext"
+                      cols="30" rows="10" autofocus="autofocus" placeholder="">
+            </textarea>
+        </div>
+        <div class="in_raod_sendit">
+            <input class="send_olink" id="send"  value="保存" onclick="GetTextToOrder()" type="submit">
+            <input class="send_olink" id="cencel"  value="取消" onclick="cencle()" type="submit">
+        </div>
+    </div>
+    <Script type="text/javascript" rel="script" src="olink.js"></Script>
+</body>
+</html>
