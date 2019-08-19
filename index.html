@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="src/img/Logo/tubiao.png">
+    <script type="text/javascript" rel="script" src="script.js"></script>
+    <title>全球高武_源起小说</title>
+</head>
+<body>
+     <div id="top_space">
+        <div id="list_space">
+            <a href="index.html"><img src="src/img/Logo/logo.png" id="logo" alt=""></a>
+            <ul id="list_link">
+                <li> <a href="index.html">首页</a></li>
+                <li> <a href="https://www.qidian.com/all">全部</a></li>
+                <li> <a href="https://www.qidian.com/rank">排行榜</a></li>
+                <li> <a href="https://write.qq.com/public/login.html">登录</a></li>
+                <li> <a href="https://write.qq.com/public/login.html">作家专区</a></li>
+            </ul>
+            <div id="sreach">
+                 <div id="input_word" >
+                     <input type="search" id="input_style" placeholder="  请输入书籍名称">
+                     <button type="submit" id="submit_style" onclick="sreach()">搜索</button>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <div id="manes" style="display:none;font-size: 15px;width: 1200px;height: 180px">
+         <span style="color: #313131;margin-left: 260px;float: left">
+         <p style="color: #ff452c">版本:1.1</p>
+         <p style="color: #ff452c">时间:2019_6_17</p>
+         <p style="color: #ff452c">服务器:github_提供</p>
+         </span>
+     </div>
+     <!--框架隐藏-->
+     <div id="new_iarame" style="display: none">
+         <div id="top_next">  <!--隐藏框架-->
+             <div id="quanle"></div>
+             <div id="orther">
+                 <Strong id="guanjianzi">""</Strong>
+                 <Strong>搜索结果</Strong>
+             </div>
+         </div>
+         <div class="lines_sreach"></div>
+         <div id="seach_index_space">
+             <div id="index_sreach"></div>
+             <div id="suje">
+                 <iframe src="" frameborder="0" id="ifarme_url"></iframe>
+             </div>
+         </div>
+     </div>
+     <!--框架隐藏-->
+     <div id="center" style="display: block">
+         <div class="side_right">
+             <div class="top_text">
+                 <div class="left_bagou"></div>
+                 <div class="text">
+                     <Strong class="top_text_word">本周推荐</Strong>
+                 </div>
+             </div>
+             <div class="end_list">
+                 <div class="list_link">
+                    <li class="all_style" >
+                        <span id="Noster1"><Strong><em>1.</em></Strong></span>
+                        <a href="http://www.qb5.io/xs-35404/du-1.html" id="space_book">《完美世界》</a>
+                        <span id="wrter">辰东</span>
+                        <div id="line"></div>
+                    </li>
+                     <li class="all_style" >
+                         <span id="Noster1"><Strong><em>2.</em></Strong></span>
+                         <a href="http://www.qb5.io/xs-3851/du-1.html" id="space_book">《网游之盗版神话》</a>
+                         <span id="wrter">失落叶</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster1"><Strong><em>3.</em></Strong></span>
+                         <a href="https://www.ixs.cc/184685/209017452.html" id="space_book">《我是狗策划》</a>
+                         <span id="wrter"> 诸葛婉君</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>4.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185335/209337881.html" id="space_book">《骑砍风云录》</a>
+                         <span id="wrter"> 鲜花和辣椒</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>5.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185083/209215517.html" id="space_book">《我真没想重生啊》</a>
+                         <span id="wrter">柳岸花又明</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>6.</em></Strong></span>
+                         <a href="https://www.ixs.cc/429/index.html" id="space_book">《赘婿》</a>
+                         <span id="wrter">愤怒的香蕉</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>7.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185443/210100161.html" id="space_book">《重生之最好时代》</a>
+                         <span id="wrter">九灯和善</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>8.</em></Strong></span>
+                         <a href="https://www.ixs.cc/186385/209824545.html" id="space_book">《武道旅程》</a>
+                         <span id="wrter"> 明道真人</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>9.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185823/209608342.html" id="space_book">《无敌从长生开始》</a>
+                         <span id="wrter">混沌果</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>10.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185284/209314336.html" id="space_book">《遍地都是传送门》</a>
+                         <span id="wrter">流浪月光</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>11.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185565/209474850.html" id="space_book">《电影世界的旅者》</a>
+                         <span id="wrter">静觅猫</span>
+                         <div id="line"></div>
+                     </li>
+                     <li class="all_style" >
+                         <span id="Noster"><Strong><em>12.</em></Strong></span>
+                         <a href="https://www.ixs.cc/185788/209588574.html" id="space_book">《从精武英雄开始》</a>
+                         <span id="wrter">第一长江</span>
+                     </li>
+                 </div>
+             </div>
+         </div>
+         <div class="side_center">
+             <div class="top_text_pic">
+                 <div class="rues_pic"></div>
+                 <Strong class="tex">封面推荐</Strong>
+             </div>
+             <div id="liensto"></div>
+             <div id="photos_list">
+                 <a href="https://book.qidian.com/info/1014952645" id="url_pic"><img src="src/img/Phontos/81801.jpg" alt="" id="pic_side"></a>
+                 <div id="end_erand">
+                     <div class="list_bgr">
+                     <div class="bag" onclick="chick(1)" id="t1"><Strong id="tetx_yan">1</Strong></div>
+                     <div class="bag" onclick="chick(2)" id="t2"><Strong id="tetx_yan">2</Strong></div>
+                     <div class="bag" onclick="chick(3)" id="t3"><Strong id="tetx_yan">3</Strong></div>
+                     <div class="bag" onclick="chick(4)" id="t4"><Strong id="tetx_yan">4</Strong></div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+         <div class="side_left">
+             <div class="all_space">
+                 <div class="piuc_top">
+                     <div class="piuc_top_top">
+                         <div class="piuc_top_top_left"></div>
+                         <Strong class="kex">畅销风云--<Strong id="Nose1">榜首</Strong></Strong>
+                     </div>
+                     <div id="lito"></div>
+                     <div id="spaces">
+                         <div class="pic_left">
+                             <a href="" id="link_tothis"><img src="src/img/earch/Conter/1901.jpg" alt="" id="pc_change"></a>
+                         </div>
+                         <div id="word_girht">
+                               <div id="rteus">
+                                   <div class="baes"><em>分数指数:</em></div>
+                                   <div id="hinf">
+                                       <em>8.8</em>
+                                   </div>
+                               </div>
+                             <div id="rteus">
+                                 <div class="baes"><em>书名:</em></div>
+                                 <div class="baes"><em>全球高武</em></div>
+                             </div>
+                             <div id="rteus">
+                                 <div class="baes"><em>类别:</em></div>
+                                  <div class="baes"><em>玄幻</em></div>
+                             </div>
+                             <div id="rteus">
+                                 <div class="baes"><em>作者:</em></div>
+                                 <div class="baes"><em>老鹰吃小鸡</em></div>
+                             </div>
+                         </div>
+                     </div>
+                     <div id="words">
+                         <div id="thhead">
+                             <em>简介:</em>
+                             <em>　地窟入侵，武道崛起。
+                                 　小人物也有大情怀，为生存而战，为守护而战。
+                                 　且看小人物方平，一步步崛起，拯救（忽悠）全世界的故事！
+                             </em>
+                         </div>
+                     </div>
+                     <div id="lito"></div>
+                     <div id="all_ji">
+                         <li id="sdea"><a href="https://vipreader.qidian.com/chapter/1012237441/485843720">第1292章 东皇的爱好</a></li>
+                         <li id="sdea"><a href="https://vipreader.qidian.com/chapter/1012237441/485898731">第1293章 皇者都很可怕</a></li>
+                         <li id="sdea"><a href="https://vipreader.qidian.com/chapter/1012237441/485928622">第1294章 生死百态（万更求订阅）</a></li>
+                         <li id="sdea"><a href="https://vipreader.qidian.com/chapter/1012237441/486096122">第1295章 原力淬体</a></li>
+                     </div>
+                     <div id="lito" style="margin-top: 10px"></div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div id="middle" style="display: block">
+           <div id="top_ster">
+               <div class="Ghalse"></div>
+               <Strong style="margin-left: 13px">好评如潮</Strong>
+               <div id="top_word_xinren">
+                   <Strong style="margin-left: 20px;"><span id="kexsa" >新人</span>潜力榜单</Strong>
+               </div>
+               <div style="width: 1200px;height: 1px;background: #7a7777;margin-top: 10px"></div>
+           </div>
+          <div id="Book_space" style="display: block">
+                <div id="middle_right">
+                     <li id="bsa">
+                         <div id="fangkui" style="text-align: center; color: #ffffff;margin-right: 10px">
+                             <Strong>1.</Strong>
+                         </div>
+                         <a href="https://book.qidian.com/info/1015850610" style=""><em style="margin: 20px">山泉客栈有点仙</em><strong style="color: #ea401a">本周最强</strong>
+                         </a>
+                     </li>
+                    <li id="bsa">
+                        <div id="fangkui" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>2.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015878756" style=""><em style="margin: 20px">向往的生活之娱乐大师</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkui" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>3.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015910502" style=""><em style="margin: 20px">漫威世界的光之巨人</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>4.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015839132" style=""><em style="margin: 20px">反派驾临</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>5.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015246382" style=""><em style="margin: 20px">漫威里的大超</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>6.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015911334" style=""><em style="margin: 20px">九阴真金在漫威</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>7.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1014205885" style=""><em style="margin: 20px">修真家族崛起记</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>8.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015814340" style=""><em style="margin: 20px">我可以无限融合</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>9.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015865545" style=""><em style="margin: 20px">网游野蛮与文明</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>10.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015896148" style=""><em style="margin: 20px">我能吸邪气</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>11.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015446748" style=""><em style="margin: 20px">我真的只是个医疗兵</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>12.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015630882" style=""><em style="margin: 20px">武神皇庭</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>13.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1014277175" style=""><em style="margin: 20px">最佳特摄时代</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>14.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015906259" style=""><em style="margin: 20px">和谐游戏</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>15.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1016073648" style=""><em style="margin: 20px"> 怪物被杀就会死</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+                    <li id="bsa">
+                        <div id="fangkuia" style="text-align: center; color: #ffffff;margin-right: 10px">
+                            <Strong>16.</Strong>
+                        </div>
+                        <a href="https://book.qidian.com/info/1015983881" style=""><em style="margin: 20px">迷雾图鉴</em><em style="color: #9a9696">最新小说</em></a>
+                    </li>
+
+                </div>
+                <div id="middle_center">
+                <div id="top_twoours">
+                        <div class="in_left">
+                            <div class="bookpic">
+                                <a href="">
+                                    <img src="https://bookcover.yuewen.com/qdbimg/349573/1012353235/90" id="allpic">
+                                </a>
+                            </div>
+                            <div class="improtan">
+                                <div id="allist">
+                                    <a href="https://book.qidian.com/info/1012353235">
+                                        <Strong style="margin-top: 30px">大宋超级学霸</Strong>
+                                    </a>
+                                    <div style="width: 160px;height: 80px;font-size: 15px;color: #7a7777">
+                                        <p>类型:两宋清明</p>
+                                        <p>高月 著</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="end_text">
+                                <Strong style="color: #7a7777   ;margin-left: 60px;font-size: 14px" >
+                                    <em>目前有 <em style="color: #ea574a">3.03w</em> 书友在追这本书</em>
+                                </Strong>
+                            </div>
+                        </div>
+                        <div class="in_right">
+                            <div class="bookpic">
+                                <a href="">
+                                    <img src="https://bookcover.yuewen.com/qdbimg/349573/1010457704/90" id="allpic">
+                                </a>
+                            </div>
+                            <div class="improtan">
+                                <div id="allist">
+                                    <a href="https://book.qidian.com/info/1010457704">
+                                        <Strong style="margin-top: 30px">神医妙手</Strong>
+                                    </a>
+                                    <div style="width: 160px;height: 80px;font-size: 15px;color: #7a7777">
+                                        <p>类型:妙手仁医</p>
+                                        <p>陈家三郎 著</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="end_text">
+                                <Strong style="color: #7a7777   ;margin-left: 60px;font-size: 14px" >
+                                    <em>目前有 <em style="color: #ea574a">5.44w</em> 书友在追这本书</em>
+                                </Strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="end_twoours">
+                        <div class="the_left">
+                            <div class="bookpic">
+                                <a href="https://book.qidian.com/info/1015839132">
+                                    <img src="https://bookcover.yuewen.com/qdbimg/349573/1015839132/90" id="allpic">
+                                </a>
+                            </div>
+                            <div class="improtan">
+                                <div id="allist">
+                                    <a href="https://book.qidian.com/info/1015839132">
+                                        <Strong style="margin-top: 30px">反派驾临 </Strong>
+                                    </a>
+                                    <div style="width: 160px;height: 80px;font-size: 15px;color: #7a7777">
+                                        <p>类型:异世大陆</p>
+                                        <p>东土大茄 著</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="end_text">
+                                <Strong style="color: #7a7777   ;margin-left: 60px;font-size: 14px" >
+                                    <em>目前有 <em style="color: #ea574a">1.44w</em> 书友在追这本书</em>
+                                </Strong>
+                            </div>
+                        </div>
+                        <div class="the_right">
+                            <div class="bookpic">
+                                <a href="https://book.qidian.com/info/1015717336">
+                                    <img src="https://bookcover.yuewen.com/qdbimg/349573/1015717336/90" id="allpic">
+                                </a>
+                            </div>
+                            <div class="improtan">
+                                <div id="allist">
+                                    <a href="https://book.qidian.com/info/1015717336">
+                                        <Strong style="margin-top: 30px">最强赏金猎人</Strong>
+                                    </a>
+                                    <div style="width: 160px;height: 80px;font-size: 15px;color: #7a7777">
+                                        <p>类型:衍生同人</p>
+                                        <p>落魄的小纯洁 著</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="end_text">
+                                <Strong style="color: #7a7777   ;margin-left: 60px;font-size: 14px" >
+                                    <em>目前有 <em style="color: #ea574a">5.44w</em> 书友在追这本书</em>
+                                </Strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="middle_left">
+                     <div id="top_pic">
+                         <a href="https://book.qidian.com/info/1013331592" id="middle_left_pic_link">
+                             <img src="https://bookcover.yuewen.com/qdbimg/349573/1013331592/180" id="middle_left_pic">
+                         </a>
+                     </div>
+                    <div id="textandtye">
+                        <div class="style_word">
+                            <span>
+                                <strong>
+                                    <a href="" id="stre">《这个地球有点凶》</a>
+                                </strong>
+                            </span>
+                        </div>
+                        <div id="middle_text">
+                               <div id="writer" style="margin-left: 32%">
+                                   傅啸尘_著
+                               </div>
+                        </div>
+                        <div id="eder">
+                             <div id="text_sllsce">
+                                  <div id="left_types">
+                                      <div style="width: auto;height: auto;">
+                                          <span style="color: #888888">评分：</span>
+                                          <div id="booktypes">
+                                              8.5
+                                          </div>
+                                      </div>
+                                  </div>
+                                 <div id="right_types" style="float: left">
+                                     <div style="width: auto;height: auto;">
+                                         <span style="color: #888888">类型：</span>
+                                         <div id="booknumber">
+                                            东方玄幻
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                     <div id="cleor_text">
+                         <div id="text_space">
+                             <em style="color: #313131;font-size: 16px">简介：</em>
+                             <em id="all_tys">
+                                 　天地灵气复苏，一个前所未有的神话时代扑面而来！
+                                 　　一个少年在灵气复苏的前夜重生！
+                                 　　我重生了，也变强了！
+                                 　　你们统统都别想跑！死亡如风，常伴汝身！
+                             </em>
+                         </div>
+                    </div>
+                </div>
+          </div>
+     </div>
+     <div id="buttom" style="display: block">
+         <!--底部-->
+         <div id="buttom_left">
+             <div id="top_zuijin">
+                 <div  class="zuijin"></div>
+                 <Strong id="zuiin_text">作家专栏</Strong>
+             </div>
+             <div style="width: 255px;height: 1px;background: #c9c5c5;"></div>
+             <div id="writer_home">
+                 <div id="writer_one">
+                     <div id="second">
+                         <div id="writer_pic">
+                             <a href="https://me.qidian.com/authorIndex.aspx?id=4362948">
+                                 <img src="https://facepic.qidian.com/qd_face/349573/a4362948/0" id="writer_pic_s">
+                             </a>
+                         </div>
+                         <div id="eathre">
+                             <li id="kioed">
+                                 <Strong>大神作家</Strong>
+                             </li>
+                             <li id="names">远瞳</li>
+                             <li id="write_V">阅文集团大神作者</li>
+                         </div>
+                     </div>
+                     <div id="end_writer">
+                         <span style="font-size: 15px;color: #313131;float: left">代表作品：</span>
+                         <li id="list_writer">
+                             <a href="https://book.qidian.com/info/1463673">《希灵帝国》</a>
+                         </li>
+                         <li id="list_writer">
+                             <a href="https://book.qidian.com/info/1010400217">《黎明之剑》</a>
+                         </li>
+                     </div>
+                 </div>
+                 <div id="writer_one">
+                     <div id="second">
+                         <div id="writer_pic">
+                             <a href="https://me.qidian.com/authorIndex.aspx?id=4362120">
+                                 <img src="https://facepic.qidian.com/qd_face/349573/a4362086/0" id="writer_pic_s">
+                             </a>
+                         </div>
+                         <div id="eathre">
+                             <li id="kioed">
+                                 <Strong>白金作家</Strong>
+                             </li>
+                             <li id="names">瑞根</li>
+                             <li id="write_V">阅文集团白金作家，网络文学知名作家，名下作品曾留下“网络点击率之最”的神话</li>
+                         </div>
+                     </div>
+                     <div id="end_writer">
+                         <span style="font-size: 15px;color: #313131;float: left">代表作品：</span>
+                         <li id="list_writer">
+                             <a href="https://book.qidian.com/info/1479">《江山美人志》</a>
+                         </li>
+                         <li id="list_writer">
+                             <a href="https://book.qidian.com/info/1264249">《弄潮》</a>
+                         </li>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div id="buttom_right">
+               <div id="top_speace">
+                    <div style="width: 2px;height: 24px;background:
+                     #313131;margin-top: 20px;margin-left: 20px;float: left"></div>
+                    <Strong style="float: left;margin-top: 20px;margin-left: 15px;color: #4e4b4b">最近更新 </Strong>
+                   <div style="width: 930px;height: 1px;background: #b8b6b6;float: left;margin-top: 5px"></div>
+               </div>
+             <div id="end_list">
+                 <div id="list_space_link">
+                      <li id="list_style_end">
+                          <div id="type_list_space">
+                              <div id="type_list">体育</div>
+                          </div>
+                          <div id="bk_names">
+                              <span id="list_end_style"><a href="https://book.qidian.com/info/1013311315">篮坛之氪金无敌</a></span>
+                          </div>
+                          <div id="bk_wrdk">
+                              <span id="list_wrod_style">肉末大茄子</span>
+                          </div>
+                          <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1013311315/486165255">
+                                   第一千一百九十四章鹈鹕“蝉联”第三
+                                    </a>
+                               </span>
+                          </div>
+                          <div id="end_time">
+                                <em id="time_text">08-19 20:00</em>
+                          </div>
+                      </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">武侠</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1013875660">武侠之无限抽卡</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">武文修</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1013875660/486399619">
+                                   第七百三十七章·北声震荡响行宫
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 20:00</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">悬疑</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1015582725">盗墓笔记2019</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">南派三叔</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://read.qidian.com/chapter/v_OapVmYVKcEGYrhBm4H8w2/d7q5lfVs9w_6ItTi_ILQ7A2">
+                                   引子
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">07-26 11:46</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">游戏</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1011139133">伊塔之柱</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">绯炎</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1011139133/486616326">
+                                  第三百四十二章星落XIII
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:39</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">玄幻</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1014130981">明日之劫</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">熊狼狗</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1014130981/486615309">
+                                   584,雷光
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:23</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">都市</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1011486666">大医凌然</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">志鸟村</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1011486666/486614908">
+                                   第840章逐渐呆滞
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:18</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">科幻</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1014212226">我的专属梦境游戏</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">碧蓝的世界</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1014212226/486614296">
+                                   355目标
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:09</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">历史</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/3223937">神话版三国</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">坟土荒草</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/3223937/486614274">
+                                   第三千两百五十五章特别靠谱
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:09</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">武侠</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1014964895">江湖我独尊</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">修身</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1014964895/486613932">
+                                   第331章龙元，招考
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:05</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">游戏</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1012912018">英雄联盟：我的时代</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">骷髅精灵</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1012912018/486557013">
+                                第三百七十章一朝成名天下知
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:05</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">轻文</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1015517624">诸天大佬聊天室</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">笑畏余生</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1015517624/486613583">
+                                  第一百一十二章这不是我认识的漫威
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:01</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">玄幻</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1004179514">天道图书馆</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">横扫天涯</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1004179514/486414177">
+                                   第二二一二章张悬灵魂突破神王
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:00</em>
+                         </div>
+                     </li>
+                     <li id="list_style_end">
+                         <div id="type_list_space">
+                             <div id="type_list">仙侠</div>
+                         </div>
+                         <div id="bk_names">
+                             <span id="list_end_style"><a href="https://book.qidian.com/info/1011092046">剑徒之路</a></span>
+                         </div>
+                         <div id="bk_wrdk">
+                             <span id="list_wrod_style">惰堕</span>
+                         </div>
+                         <div id="zj_wrod">
+                               <span id="text_end_zj">
+                                   <a href="https://vipreader.qidian.com/chapter/1011092046/485909881">
+                                   第1463章混在其中【为盟主点亮星空加更】
+                                    </a>
+                               </span>
+                         </div>
+                         <div id="end_time">
+                             <em id="time_text">08-19 19:00</em>
+                         </div>
+                     </li>
+                     <div style="width: 930px;height: 1px;background: #c2bfbf;margin-top: 10px"></div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div id="reply_bote" style="display: block">
+            <div class="mes_title">
+                <div style="width: 2px;height: 24px;background:
+                     #313131;margin-left: 20px;float: left;margin-top: 3px"></div>
+                <Strong style="float: left;margin-left: 15px;color: #4e4b4b;margin-top: 3px;">提点建议 </Strong>
+            </div>
+         <div class="inputs">
+             <div id="input_space">
+                <div class="title_input">
+                    <span style="font-size: 16px;color: #7a7777">请输入文章标题：</span><input type="text" placeholder="文章标题_" id="send_maesge">
+                </div>
+                 <div class="title_input">
+                     <span style="font-size: 16px;color: #7a7777">邮箱(email)：</span>
+                     <input type="text" placeholder="163，QQ，WPS邮箱" id="send_emali">
+                 </div>
+                 <div class="word_input">
+                     <span style="font-size: 16px;color: #7a7777;float: left;margin-top: 100px;margin-left: 18px">输入内容：</span>
+                     <textarea placeholder="具体内容" id="textarea_input" cols="30" rows="10"></textarea>
+                 </div>
+                 <div id="sumiding">
+                     <div id="send_all">
+                         <span id="t_style" onclick="send()">确定</span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+    <div id="webside_end">
+            <div id="endalltext">
+                <div id="one">
+                    <span style="margin-left: 120px">免责声明_网站内所有链接地址均是网络结果_本站概不负责</span>
+                    <span style="margin-left: 230px">|如若侵权_联系则删|</span>
+                    <span style="margin-left: 200px">本站using github build<a>_其他内容</a></span>
+                </div>
+            </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,982 @@
+body{
+    margin: 0px; /*设置距离*/
+
+}
+#list_space
+ul{
+   margin: 0px; /*取消默认样式*/
+}
+#list_link
+a{
+    text-decoration: none;
+    color: white; /*设置a标签的样式*/
+}
+#logo{
+    float: left;  /*logo样式*/
+    width: 75px;
+    margin-top: 6px;
+    margin-right: 60px;
+}
+
+#list_link
+li{
+   list-style: none;   /*取消默认样式并且设置文字对齐样式*/
+    text-align: center;
+    float: left;
+    color: #ffffff;
+    font-size: 17px;   /*设置距离，字体大小*/
+    margin-top: 6px;
+    margin-right: 80px;
+}
+#list_space{
+    /*定义列表空间*/
+    width: 100%;
+    height: auto;
+    margin-left: 80px;
+}
+#top_space{   /*顶部横幅*/
+    width: 1200px;    /* 定义宽度*/
+    height: 36px;   /*定义高度*/
+    margin-top: 50px; /*顶部距离*/
+    background: #4e4e4e;    /*测试颜色*/
+    margin-left: 217px;
+}
+#sreach{
+    float: left;
+    width: 240px;
+    height:40px ;  /*搜搜框样式*/
+}
+#input_style{
+    width: 160px;
+    height: 25px;/*输入框样式*/
+    margin-top: 5px;
+    padding-bottom: 0px;
+    border-bottom: none;
+    border: #d4cecc;
+    color: #4e4b4b;
+}
+#submit_style{
+    float: right; /*设置按钮样式*/
+    width: 70px;
+    height: 25px;
+    border: none;
+    color: #5e5a57;
+    margin-top: 5px;
+    font-size: 15px;
+    background: #ffffff;
+}
+#input_word
+button:hover{
+    color: #e35326;  /*鼠标经过按钮事件*/
+}
+#input_style:visited{
+    color: #313131;/*鼠标点击后状态*/
+}
+#list_link
+li
+a:hover{
+    color: #e35326;  /*鼠标经过按钮事件*/
+
+}
+/*--------------------------------------*/
+
+#center{
+    margin-left: 217px;
+    margin-top: 20px;
+    width: 1200px;   /*中心框架样式*/
+    height: 420px;
+    background: #fefefe;
+}
+.side_right{
+    float: right;
+    width: 280px;
+    height: 420px; /*推荐位框架  右*/
+}
+.top_text{
+    /*推荐位右 横幅*/
+    width: 280px;
+    height: 30px;
+}
+.text_margin_line{
+    /*底部线条*/
+    width: 280px;
+    height: 1px;
+    margin-top: 5px;
+    background: #cac7c7;
+}
+
+.left_bagou{
+    float: left;  /*横幅左边方块样式*/
+    width: 2px;
+    margin-top: 5px;
+    height: 22px;
+
+    background: #4e4b4b;
+}
+.top_text{
+    font-size: 16px;/*推荐横幅样式*/
+    margin-top: 12px;
+    color: #4e4b4b;
+}
+.text{
+    float:left;
+    margin-left: 6px;  /*文字本周推荐样式*/
+    margin-top: 5px;
+}
+/******************************/
+.end_list{
+    width: 280px;   /*推荐位内容框架*/
+    height: 100%;
+    margin-top: 5px;  /*调整上边距离*/
+}
+.list_link{
+    float: left;
+    height: 100%;  /*列表空间*/
+    width: 280px;
+}
+.all_style{
+    width: 280px;
+    height: 20px;  /*全部li的样式*/
+    margin-top: 10px;
+}
+.end_list
+li{
+    font-size: 15px;  /*li样式控制*/
+    list-style: none;
+}
+.list_link
+li
+a{   /*li中的连接样式*/
+    text-decoration: none;
+    color: #7a7777;
+}
+/*------------------------*/
+#Noster1{
+    color: #ea3f28;
+    font-size: 16px;  /*第一样式*/
+}
+#Noster{
+    color: #4e4e4e;
+    font-size: 16px;  /*普通排行样式*/
+}
+/*------------------------*/
+#space_book{
+    width: 130px;
+    height: 30px;
+    margin-right: 40px;  /*书名-调整距离*/
+}
+#wrter{
+    width: 30px;
+    height: 30px;
+    color: #7a7777;  /*作者名称调整距离*/
+}
+#line{
+    width: 280px;
+    height: 1px;
+    margin-top: 5px;  /*线条*/
+    margin-bottom: 10px;
+    background: #e4e1e1;
+}
+.list_link
+li
+a:hover{  /*鼠标经过效果*/
+    color: #e35326;
+}
+/*------------图片轮换内容-----------------------*/
+.side_center{
+    float: right;
+    width:650px ;  /*封推*/
+    height: 420px;
+    margin-right: 15px;
+}
+.side_left{
+    float: right;
+    width:240px ;  /*小封推*/
+    height: 420px;
+    margin-right: 15px;
+}
+.top_text_pic{
+    width: 650px;  /*封推顶部*/
+    height: 40px;
+    margin-top: 15px;
+    font-size: 16px;  /*文字样式*/
+    color: #434141;
+}
+.rues_pic{
+    float: left;
+    width: 2px;
+    height: 24px; /*顶部图形*/
+    margin-top: 8px;
+    margin-left: 30px; /*距离*/
+    background: #5e5a57;
+}
+.tex{
+    float: left;
+    margin-left: 10px;  /*文字距离*/
+    margin-top: 8px;
+}
+#liensto{
+    /*线条*/
+    width: 650px;
+    height: 1px;
+    background: #e2ded4;
+}
+#photos_list{
+    margin-top: 10px;
+    width: 650px;  /*封面尺寸*/
+    height:280px;
+}
+#pic_side{
+    /*图片大小*/
+    width: 650px;
+    height: 280px;
+}
+#end_erand{
+    width: 650px;  /*底部轮转标志空间*/
+    height: 60px;
+}
+li{
+    list-style: none;
+}
+
+.bag{
+    width: 24px;
+    height: 22px; /*li全部样式*/
+    background: #ea574a;
+    color: white; /*文字样式*/
+    text-align: center;
+    font-size: 18px;
+    float: left; /*选择对齐方式*/
+    margin-right: 4px;  /*距离*/
+}
+.list_bgr{
+    margin-left: 280px; /*距离*/
+}
+.bag:hover{
+    /*鼠标经过事件*/
+    background: #4e4b4b;
+}
+/*------------搜索页面内容-----------------------*/
+#new_iarame{
+    width: 1200px;
+    height: auto;  /*设置距离宽度*/
+    margin-top: 50px;
+    margin-left: 217px;/*设置页面内容空间*/
+}
+#top_next{
+     width: 1200px;
+    height: 20px;/*设置文字空间*/
+    color: #5e5a57;
+}
+#orther{
+    margin-top: 3px;
+}
+#quanle{
+    float: left;
+    width: 3px;
+    height: 23px;  /*设置图形*/
+    background: #4e4b4b;
+    margin-left: 40px;
+}
+#guanjianzi{
+    /*搜索关键字*/
+    margin-left: 15px;
+    margin-right: 10px;
+    color: #e35326;
+}
+#seach_index_space{
+    width: 1200px;  /*定义存放ifarme空间*/
+    height: auto;
+    margin-top: 20px;
+}
+.lines_sreach{
+   margin-top: 10px;
+    width: 1200px;
+    height: 1px;  /*定义线条*/
+    background: #e9e3dc;
+}
+#suje{
+    width: 1200px;  /*空间大小*/
+    height: 700px;
+}
+#ifarme_url{
+    width: 1200px;
+    height: 600px;   /*页面大小*/
+}
+/*------------左侧内容-----------------------*/
+.piuc_top{
+    width: 240px;/*左上内容*/
+    height: 320px;
+}
+#Nose1{
+ color: #ea3f28;
+}
+.piuc_top_top{
+    width: 240px;
+    height: 40px;  /*空间定义*/
+    margin-top: 16px;
+}
+.all_space{
+    /*全部空间*/
+    width: 240px;
+    height:420px;
+}
+.piuc_top_top_left{
+    /*左上图标*/
+    float: left;
+    width: 2px;
+    height: 25px;
+    margin-top: 6px;
+    background: #5e5a57;
+
+}
+.kex{
+    float: left;
+    margin-left: 10px;  /*文字距离*/
+    margin-top: 7px;
+    color: #4e4b4b;
+}
+#lito{
+     /*线条*/
+    width: 230px;
+    height: 1px;
+    background: #cfc9c9;
+
+}
+.pic_left{
+    float: left;
+    width: 95px;
+    height: 126px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /*空间    定义*/
+}
+#pc_change{
+    width: 95px;
+    border-radius: 5px; /*图片*/
+}
+#spaces{
+    float: end;
+    width: 240px; /*空间*/
+    height: 150px;
+}
+#word_girht{
+    float: right;
+    width: 130px;
+    height: 126px; /*空间与距离*/
+    margin-top: 13px;
+}
+#rteus{
+   width: 130px;
+    height: 28px;
+}
+#hinf{
+  float: left;
+    width: 24px;
+    height: 16px;
+    background: #ea401a;
+    font-size: 14px;   /*分数指数图形*/
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.baes{
+    margin-top: 5px;
+    float: left;  /*数据距离*/
+    margin-left: 10px;
+    font-size: 14px;
+    color: #616161;
+}
+#words{
+    width: 240px;
+    height: 105px;   /*空间*/
+}
+#thhead{
+    font-size: 14px;
+    color: #747171;  /*设置距离*/
+    margin-left: 20px;
+}
+#all_ji {
+    font-size: 14px;
+    color: #7a7777;
+}
+#all_ji
+a{
+    text-decoration: none;
+    color: #7a7777;    /*推荐位左侧畅销li中的a标签*/
+    margin-left: 20px;/*间隔*/
+}
+#sdea{
+    margin-top: 5px;
+}
+#all_ji
+a:hover{
+    color: #ea3f28; /*鼠标事件*/
+}
+/*---------中部-----------------*/
+#middle{
+    width: 1200px;
+    height: 550px;
+    margin-left: 217px;/*中部框架*/
+}
+#top_ster{
+    width: 1200px;
+    height: 40px;
+    display: block;
+    margin-top: 30px;
+   font-size: 16px;color: #333131;
+}
+.Ghalse{
+    float:  left;
+    width: 2px;
+    height: 24px;  /*图行*/
+    background: #7a7777;
+}
+#Book_space{
+    width: 1200px;  /*空间*/
+    height: 490px;
+}
+#middle_right{
+    float: right; /*新人榜*/
+    width: 280px;
+    height: 480px;
+    margin-top: 20px;
+}
+#top_word_xinren{
+    float: right;
+    width: 280px;  /*榜单名称*/
+    height: 30px;
+    font-size: 16px;
+    color: #434141;
+}
+#middle_right
+a{
+    text-decoration: none;
+    font-size: 15px; /*设置字体样式*/
+    color: #7a7777;
+}
+#kexsa{
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;  /*距离与大小*/
+    margin-right: 10px;
+    color: white;
+    background: #ea3f28;
+}
+#bsa{
+    width: 280px;
+    height: 30px;
+}
+#fangkui{
+    float: left;
+    width: 20px;  /*li样式*/
+    height: 20px;
+    background:#ea3f28;
+}
+#fangkuia{
+    float: left;
+    width: 20px;
+    height: 20px;  /*普通样式*/
+    background: #616161;
+}
+#bsa
+a:hover{
+    color: #ea574a;
+}
+#middle_center{
+    float: right;
+    width: 650px;
+    height: 500px;
+    margin-right: 15px;
+    /*书籍展览框架*/
+}
+#top_twoours{
+    width: 650px;   /*分层次框架*/
+    height: 240px;
+}
+#end_twoours{
+    width: 650px;
+    height: 240px;
+}
+.in_left{
+    float: right;
+    width: 320px;
+    height: 240px;
+}
+.in_right{
+    float: right;
+    width: 320px;
+    height: 240px;
+}
+.the_left{
+    float: right;
+    width: 320px;
+    height: 240px
+}
+.the_right{
+    float: right;
+    width: 320px;
+    height: 240px
+}
+/*全部图片样式*/
+#allpic{
+    width: 95px;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+.bookpic{
+  float: left;
+}
+.improtan{
+    float: left;
+    margin-top: 65px;  /*文字距离*/
+    margin-left: 20px;
+}
+#middle_center
+a{
+    /*全部样式*/
+    text-decoration: none;
+    color: #434141;
+}
+#allist
+a:hover{
+    color: #ea3f28;
+}
+#allist{
+    float: left;
+}
+.end_text{
+    margin-top: 190px;
+    width: 320px;
+    height: 50px;
+}
+/*--------中部左侧--------------*/
+#middle_left{
+    float: right;
+    margin-top: 20px;
+    width: 240px;
+    height: 480px;
+    border-right:1px solid #f1ebe4;
+}
+
+.style_word{
+    width: 240px;
+    height: auto;/*定义文本空间*/
+}
+#textandtye
+a{
+    text-decoration: none;
+    color: #434141; /*局限a标签*/
+}
+#textandtye
+a:hover{
+    color: #ea3f28;
+}
+.top_pic{  /*图片*/
+    width: 240px;
+    height: 200px;
+}
+#middle_left_pic{
+    width: 120px;
+    margin-top:20px;  /*设置距离*/
+    margin-left: 50px;
+}
+#textandtye{
+    width: 240px;
+    height: 100px;
+}
+.style_word
+span{
+    font-size: 16px;
+    margin-left: 35px;
+}
+#eder{
+    width: 240px;
+    font-size: 15px;
+    color: #f9f4f4;
+    height: 25px;/*定义文本空间*/
+}
+#right_types{
+    float: left;
+    width: 50%;
+    height: 25px;
+}
+#text_sllsce{
+    margin-top: 10px;
+    width: 240px;
+    height: 25px;
+}
+#left_types{
+    float: left;
+    width: 110px;
+    height: 25px;
+}
+#middle_text{
+    width: 240px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333131;
+}
+#booktypes{
+    float: right;
+    margin-right: 30px;
+    margin-top: 2px;
+    width: 35px;
+    height: 18px;
+    text-align: center;
+    background: #4e4b4b;
+}
+#booknumber{
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+    width: 70px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background: #4e4b4b;
+}
+#writer{
+    color: #4e4b4b;
+}
+#cleor_text{
+    width: 240px;
+    height: 200px;
+    font-size: 15px;
+    color: #7a7777;
+}
+#text_space{
+    /*文字空间*/
+    width: 220px;
+    height: 180px;
+    margin-top: 20px;
+}
+#all_tys{
+    /*em中的样式*/
+   margin-left: 10px;
+}
+/*-------------底部框架------------------*/
+/*底部横幅*/
+#buttom{
+    width: 1200px;
+    height:480px;/*空间*/
+    margin-left: 217px;
+}
+#buttom_left{
+    float: left;
+    width: 255px;
+    height: 480px;
+}
+#buttom_right{
+    float: right;
+    width: 930px;
+    height: 480px;
+}
+#writer_home{
+    width: 255px;
+    height: 420px;
+}
+
+#top_zuijin{
+    width: 255px;
+    margin-top: 10px;
+    height: 40px;
+}
+.zuijin{
+    width: 2px;
+    height: 24px;
+    background: #4e4b4b;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#zuiin_text{
+    float: left;
+    font-size: 16px;
+    color: #434141;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+/*作者推荐区域*/
+#writer_one{
+    width: 255px;
+    height: 210px;  /*分层级框架*/
+}
+#writer_pic{
+    /*作者头像*/
+    float: left;
+    width: 105px;
+    height: 170px;
+}
+#eathre{
+    width: 150px;
+    height: 170px;
+    float: left;
+}
+#second{
+    width: 255px;
+    height: 170px;
+}
+#end_writer{
+    width: 255px;
+    height: 30px;
+}
+#end_writer
+a{
+    text-decoration: none;
+    color: #7a7777;
+}
+#list_writer{
+    font-size: 15px;
+    color: #7a7777;
+}
+li{
+    list-style: none;
+}
+#writer_pic_s{
+    width: 100px;
+    border: 1px solid #cecaca;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+#kioed{
+    width: 80px;
+    height: 22px;
+    background: #ea3f28;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    /*白金作家*/
+}
+#names{
+    font-size: 16px;
+    color: #7a7777;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#write_V{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #7a7777;
+}
+#list_writer{
+    float: left;
+}
+#list_writer
+a:hover{
+    color: #ea3f28;
+}
+/*-------右侧---------*/
+#top_speace{
+   width: 930px;
+    height: 60px;
+}
+#end_list{
+    width: 930px;
+    height: 420px;
+}
+#list_space_link{
+    /*链接表空间*/
+    width: 910px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 420px;
+}
+#list_style_end{
+    width: 930px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+#type_list_space{
+    /*空间*/
+    float: left;
+    width: 40px;
+    height: 30px;
+}
+#bk_names{
+    float: left;
+    width: 220px; /*包住书名空间*/
+    height: 30px;
+    margin-left:50px;
+}
+#list_end_style
+a{
+    text-decoration: none;
+    color: #6d6868;
+}
+#bk_wrdk{
+    /*作者包住空间*/
+    float: left;
+    width: 150px;
+    height: 30px;
+
+}
+a{
+    text-decoration: none;
+}
+#list_space_link
+a{
+    /*集体样式*/
+    color: #7a7777;
+}
+#list_space_link
+a:hover{
+    /*集体样式*/
+    color: #ea3f28;
+}
+
+
+#list_wrod_style{
+    float: left;
+    font-size: 16px;
+    margin-top: 3px;
+    color: #7a7777;
+}
+#list_end_style
+a:hover{
+    color: #ea3f28;
+}
+#list_end_style{
+    float: left;
+    font-size: 16px;
+    margin-top: 3px;
+}
+#type_list{
+    float: left; /*列表类别空间*/
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    background: #a9a6a6;
+    color: white;
+    font-size: 16px;
+}
+#zj_wrod{
+    float: left;
+    width: 300px;
+    height: 30px;
+}
+#text_end_zj{
+    /*章节样式*/
+    float: left;
+    font-size: 15px;
+    margin-top: 3px;
+    color: #7a7777;
+}
+#end_time{
+    /*包住时间空间*/
+    float: left;
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+}
+#time_text{
+    float: left;
+    font-size: 15px;
+    margin-top: 3px;
+    color: #7a7777;
+}
+/******回复区域******/
+#reply_bote{
+    display: block;
+    width: 1200px;
+    height: 380px;
+    margin-left: 217px;
+    margin-top: 20px;
+}
+/*表头*/
+.mes_title{
+    width: 1200px;
+    height: 30px;
+    margin-top: 20px;
+}
+.inputs{
+    width: 1200px;
+    height: 340px;
+    margin-top: 10px;
+}
+#input_space{
+    width: 660px;
+    height: 320px;
+    margin-left: 380px;
+}
+#send_maesge{
+    width: 300px;
+    height: 26px;
+    font-size: 16px;
+    border: 1px solid #b7b7b7;
+}
+.title_input{
+    width: 660px;
+    height: 40px;
+}
+
+#send_emali{
+    /*邮箱*/
+    margin-top: 10px;
+ margin-left: 30px;
+    width: 150px;
+    height: 25px;
+}
+.word_input{
+    width: 660px;
+    height: 180px;
+}
+
+#textarea_input{
+/*    文本域控制*/
+    margin-top: 20px;
+    resize:none;
+    width: 500px;
+    height: 160px;
+    margin-left: 30px;
+}
+#sumiding{
+    width: 660px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+#t_style{
+    float: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+#send_all{
+    width: 90px;
+    height: 32px;
+    background: #ea3f28;
+
+}
+#send_all:hover{
+    background: #4e4b4b;
+    color: #ff452c;
+}
+/**************************/
+#webside_end{
+    width: 1200px;
+    height: 100px;
+    margin-left: 217px;
+}
+#endalltext{
+    width: 600px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 300px;
+ }
+#one{
+   font-size: 14px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #7a7777;
+}
+#one
+a:hover{
+    color: #ea3f28;
+}
