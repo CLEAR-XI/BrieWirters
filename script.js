@@ -55,7 +55,7 @@ function changetitle(text) {
     document.title = "搜索_\""+text+"\"_源起小说";
     var  str = document.getElementById("guanjianzi");
     str.innerText= "“"+text+"”";
-    var url = "http://www.mianfeixiaoshuoyueduwang.com/index.php?c=book&a=search&keywords="+text;
+    var url = "https://www.mianfeixiaoshuoyueduwang.com/index.php?c=book&a=search&keywords="+text;
     document.getElementById("ifarme_url").setAttribute('src',url);
 }
 var piclink = [ "src/img/Phontos/81801.jpg",
